@@ -1,6 +1,6 @@
 # Vue Meals App
 
-Este proyecto es una aplicación de exploración de comidas construida con Vue.js y Vite. Utiliza la API de The Meal DB para obtener información detallada sobre diversas recetas y categorías de alimentos.
+Este proyecto es una aplicación de exploración de comidas construida con Vue.js, Vite y y Tailwind CSS. Utiliza la API de The Meal DB para obtener información detallada sobre diversas recetas y categorías de alimentos.
 
 ## Características
 
@@ -24,5 +24,5 @@ npm run dev
 3. **Acceder a la aplicación**
 
 ```
-Accede mediante: http://localhost:3000
+Accede mediante: localhost:3000
 ```
