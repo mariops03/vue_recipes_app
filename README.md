@@ -1,4 +1,4 @@
-# Vue Recipes Api
+# Vue Recipes App
 
 Este proyecto es una aplicación de exploración de comidas construida con Vue.js, Vite y y Tailwind CSS. Utiliza la API de The Meal DB para obtener información detallada sobre diversas recetas y categorías de alimentos.
 
@@ -13,7 +13,7 @@ Este proyecto es una aplicación de exploración de comidas construida con Vue.j
 1. **Clonar el Repositorio:**
 
  ```
- git clone https://github.com/tu-usuario/vue-recipes-api.git
+ git clone https://github.com/mariops03/vue-recipes-app.git
  ```
 2. **Instalar Dependencias y Iniciar el Servidor de Desarrollo**
 
