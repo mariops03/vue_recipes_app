@@ -13,7 +13,7 @@ Este proyecto es una aplicación de exploración de comidas construida con Vue.j
 1. **Clonar el Repositorio:**
 
  ```
- git clone https://github.com/mariops03/vue-recipes-app.git
+ git clone https://github.com/mariops03/vue_recipes_app.git
  ```
 2. **Instalar Dependencias y Iniciar el Servidor de Desarrollo**
 
