@@ -4,7 +4,7 @@
         <MealItem v-for="meal of meals" :key="meal.idMeal" :meal="meal"/>
       </div>
       <div v-else class="flex justify-center text-gray-500">
-        <p>No se encontraron comidas</p>
+        <p class="p-1">Nothing to show</p>
       </div>
     </div>
   </template>

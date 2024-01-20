@@ -1,6 +1,6 @@
 <template>
   <div class="w-[800px] mx-auto">
-    <h1 class="text-5xl font-bold mb-5 text-center">{{ meal.strMeal }}</h1>
+    <h1 class="p-4 text-5xl font-bold mb-5 text-center">{{ meal.strMeal }}</h1>
 
     <img
       :src="meal.strMealThumb"
@@ -43,15 +43,19 @@
           </li>
         </template>
       </div>
+      <div class="flex">
       <div class="mt-6">
         <YoutubeButton :href="meal.strYoutube" />
+      </div>
+      <div class="mt-6">
         <a
+          v-if="meal.strSource"
           :href="meal.strSource"
           target="_blank"
-          class="ml-8 p-2 rounded border border-yellow-500 hover:bg-yellow-500 hover:text-white transition-colors"
-          >Original source
-        </a>
+          class="ml-8 p-2 rounded border hover:border-yellow-500 hover:bg-white hover:text-yellow-500 bg-yellow-500 text-white transition-colors"
+        >Original source</a>
       </div>
+    </div>
     </div>
   </div>
 </template>
