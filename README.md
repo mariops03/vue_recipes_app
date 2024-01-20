@@ -1,7 +1,28 @@
-# Vue 3 + Vite
+# Vue Meals App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este proyecto es una aplicación de exploración de comidas construida con Vue.js, Vite y y Tailwind CSS. Utiliza la API de The Meal DB para obtener información detallada sobre diversas recetas y categorías de alimentos.
 
-## Recommended IDE Setup
+## Características
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Explora una amplia variedad de recetas de comidas.
+- Filtra por categorías, ingredientes y letras iniciales.
+- Detalles detallados de cada receta, incluyendo ingredientes y medidas.
+
+## Configuración del Proyecto
+
+1. **Clonar el Repositorio:**
+
+ ```
+ git clone https://github.com/tu-usuario/vue-meals-app.git
+ ```
+2. **Instalar Dependencias y Iniciar el Servidor de Desarrollo**
+
+```
+npm install
+npm run dev
+```
+3. **Acceder a la aplicación**
+
+```
+Accede mediante: localhost:3000
+```
