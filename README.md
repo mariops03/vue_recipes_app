@@ -8,10 +8,6 @@ Este proyecto es una aplicación de exploración de comidas construida con Vue.j
 - Filtra por categorías, ingredientes y letras iniciales.
 - Detalles detallados de cada receta, incluyendo ingredientes y medidas.
 
-## Demostración
-
-Puedes ver una demostración en vivo [aquí](url_del_demo).
-
 ## Configuración del Proyecto
 
 1. **Clonar el Repositorio:**
