@@ -52,7 +52,8 @@
           v-if="meal.strSource"
           :href="meal.strSource"
           target="_blank"
-          class="ml-8 p-2 rounded border hover:border-yellow-500 hover:bg-white hover:text-yellow-500 bg-yellow-500 text-white transition-colors"
+          :class="{ 'ml-8': meal.strYoutube }"
+          class="p-2 rounded border hover:border-yellow-500 hover:bg-white hover:text-yellow-500 bg-yellow-500 text-white transition-colors"
         >Original source</a>
       </div>
     </div>
