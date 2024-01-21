@@ -11,7 +11,7 @@
       <div>
         <strong>Category:</strong> {{ meal.strCategory }}
       </div>
-      <div><strong>Area:</strong> {{ meal.strArea }}</div>
+      <div><strong>Origin:</strong> {{ meal.strArea }}</div>
       <div>
         <template v-if="meal.strTags">
           <strong>Tags:</strong> {{ meal.strTags }}
