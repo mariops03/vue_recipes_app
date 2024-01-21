@@ -3,7 +3,7 @@
     <input
       type="text"
       v-model="keyword"
-      class="rounded border-2 border-gray200 w-full"
+      class="rounded border-2 border-orange-200 w-full"
       placeholder="Introduce el nombre de una comida"
       @change="buscar"
     />
